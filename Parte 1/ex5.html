@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Exercicio 5</title>
+    </head>
+    <body>
+        <script>
+            var usuarios = [
+                {
+                    nome: "Diego",
+                    habilidades: ["Javascript", "ReactJS", "Redux"]
+                },
+                {
+                    nome: "Gabriel",
+                    habilidades: ["VueJS", "Ruby on Rails", "Elixir"]
+                }
+            ];
+            
+            function habUsuario(usuarios){
+                for(let user of usuarios){
+                    console.log("O %s possui as habilidades: %s",user.nome,user.habilidades.join(", "));
+                }
+            }
+            
+            habUsuario(usuarios);
+        </script>
+    </body>
+</html>

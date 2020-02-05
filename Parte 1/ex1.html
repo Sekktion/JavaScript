@@ -1,0 +1,20 @@
+<hmtl>
+    <head>
+        <title>Exercicio 1</title>
+    </head>
+    <body>
+        <script>
+            var endereco = {  
+                rua: "Rua dos pinheiros",  
+                numero: 1293,  
+                bairro: "Centro",  
+                cidade: "São Paulo",  
+                uf: "SP"
+            };
+            function enderecoUsuario(rua,numero,bairro,cidade,uf){
+                console.log("O usuário mora em %s/%s, no bairro %s, na rua '%s' com nº %d",cidade,uf,bairro,rua,numero);
+            }
+            enderecoUsuario(endereco.rua,endereco.numero,endereco.bairro,endereco.cidade,endereco.uf);
+        </script>
+    </body>
+</hmtl>
